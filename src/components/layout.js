@@ -8,22 +8,21 @@ import {
   navLinkText
 } from './layout.module.css'
 
-
-
 const Layout = ({ pageTitle, children }) => {
   return (
     <div className={container}>
       <title>{pageTitle}</title>
       <nav>
         <ul className={navLinks}>
-          <li> 
+          <li className={navLinkItem}>
             <Link to="/" className={navLinkText}>
-            Home
+              Home
             </Link>
           </li>
-          <li>
+          <li className={navLinkItem}>
             <Link to="/about" className={navLinkText}>
-              About</Link>
+              About
+            </Link>
           </li>
         </ul>
       </nav>
