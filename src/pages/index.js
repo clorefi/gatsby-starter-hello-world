@@ -13,7 +13,7 @@ const IndexPage = () => {
       <p>I'm making this by following the Gatsby Tutorial.</p>
       <StaticImage
         alt="LC3"
-        src="src/images/Screenshot 2021-09-01 at 22.35.23.png"
+        src="/src/images/Screenshot 2021-09-01 at 22.35.23.png"
       />
     </Layout>
   )
